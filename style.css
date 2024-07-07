@@ -1,0 +1,252 @@
+
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* link style share */
+.dark-1{
+    color: #181818;
+}
+.dark-2{
+    color: #474747;
+} 
+.dark-3{
+    color: #757575;
+}
+.center{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+}
+.btn-primary {
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 18px 35px;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+}
+/* header style */
+.header {
+    background-image: url(images/developer.png), url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
+/* nav style */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul {
+    display: flex;
+    align-items: center;  
+}
+.text-title{
+    margin-left: 150px;
+    font-size: 45px;
+    font-weight: 800;
+}
+.color{
+    color: #FD6E0A;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 50px;
+}
+nav ul li a{
+    text-decoration: none;
+}
+/* banner style */
+
+.banner-content{
+    display: flex;
+    justify-content: space-between;
+}
+.text-content{
+    width: 580px;
+    height: 262px;
+    margin-left: 150px;;
+}
+.banner-image{
+    height: 670px;
+    width: 580px;
+    margin-right: 38px;
+}
+.greeting {
+    font-size: 45px;
+    font-weight: 300px;
+}
+.self-name{
+    margin-top: -30px;
+    font-size: 80px;
+    font-weight: bold;
+}
+.description {
+    margin-top: -35px;
+    font-size: 18px;
+}
+/* about section stert */
+.about{
+    text-align: center;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 130px 150px;
+    border-radius: 10px;
+}
+.inner-table{
+    width: 827px;
+    height: 268px;
+    background-color: #ffffff;
+    border: 1px solid black;
+}
+.about .section-title{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-title{
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.section-details{
+    font-size: 16px;
+}
+.icons{
+    display: flex;
+    justify-content: space-around;
+}
+.icon .innerp{
+    font-size: 20px;
+}
+.icon .innerbold{
+    margin-top: -10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+/* skills section start */
+.skilled{
+    /* text-align: center; */
+    /* padding: 130px 150px; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    /* margin: 130px 150px; */
+}
+.skill-contain{
+    width: 827px;
+    height: 268px;
+    background-color: #ffffff;
+}
+.skill {
+    width: 267px;
+    height: 377px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px whitesmoke;
+}
+.skills{
+    display: flex;
+    margin: 0 200px;
+    gap: 24px;
+    
+}
+.padd {
+    padding: 40px 20px;
+    width: 204;
+    height: 243px;
+    /* background-color: red; */
+}
+/* section resume start */
+.resume-container{
+    font-size: 35px;
+    margin-top: 130px;
+}
+.skils .skil{
+    width: 500px;
+    height: 170px;
+}
+.resume-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 71px;
+} 
+.resume .section-title{
+    font-size: 35px;
+    font-weight: bold;
+}
+.resume-details .section-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.skil .section-details{
+    font-size: 25px;
+    font-weight: bold;
+}
+.pera{
+    font-size: 20px;
+    font-weight: 500;
+}
+.peraOne {
+    font-size: 16px;
+}
+.button{
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    padding: 18px 30px;
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    margin: 100px 600px;
+}
+/* footer section start */
+.footer {
+    text-align: center;
+    padding: 130px 150px;
+    background-color: #FFF8F3;
+    margin: 130px 150px;
+    border-radius: 10px;
+}
+.footer .section-title{
+    margin-top: 5px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.footer-section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 130px 200px;
+    background-color: #FFF8F3;
+    border-radius: 10px;
+}
+.footer-area input[type=text], input[type=email], textarea {
+    display: block;
+    padding: 18px 30px;
+    width: 100%;
+    margin-bottom: 24px;
+    border: none;
+}
+.footer-area p {
+    width: 450px;
+    height: 50px;
+}
+.footer-area  i {
+    margin-top: 100px;
+    color: #FD6E0A;
+   margin-left: 24px;
+}
